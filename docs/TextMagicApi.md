@@ -4653,7 +4653,7 @@ opts = {
   lists: '\"1,2,3,4\"', # String | Comma-separated array of list resources id message will be sent to.
   phones: '\"447860021130,447860021131\"', # String | Comma-separated array of E.164 phone numbers message will be sent to.
   cut_extra: 0, # Integer | Should sending method cut extra characters which not fit supplied partsCount or return 400 Bad request response instead.
-  parts_count: 6, # Integer | Maximum message parts count (TextMagic allows sending of 1 to 6 message parts).
+  parts_count: 6, # Integer | Maximum message parts count (Textmagic allows sending of 1 to 6 message parts).
   reference_id: 1, # Integer | Custom message reference id which can be used in your application infrastructure.
   from: '\"Test Sender ID\"', # String | One of the allowed Sender ID (phone number or alphanumeric sender ID). If the specified Sender ID is not allowed for some destinations, a fallback default Sender ID will be used to ensure delivery. See [Get timezones](https://docs.textmagic.com/#tag/Sender-IDs).
   rule: '\"FREQ=YEARLY;BYMONTH=1;BYMONTHDAY=1;COUNT=1\"', # String | An iCal RRULE parameter to create recurrent scheduled messages. When used, sendingTime is mandatory as the start point of sending. See https://www.textmagic.com/free-tools/rrule-generator for format details.
@@ -4685,7 +4685,7 @@ Name | Type | Description  | Notes
  **lists** | **String**| Comma-separated array of list resources id message will be sent to. | [optional] 
  **phones** | **String**| Comma-separated array of E.164 phone numbers message will be sent to. | [optional] 
  **cut_extra** | **Integer**| Should sending method cut extra characters which not fit supplied partsCount or return 400 Bad request response instead. | [optional] [default to 0]
- **parts_count** | **Integer**| Maximum message parts count (TextMagic allows sending of 1 to 6 message parts). | [optional] [default to 6]
+ **parts_count** | **Integer**| Maximum message parts count (Textmagic allows sending of 1 to 6 message parts). | [optional] [default to 6]
  **reference_id** | **Integer**| Custom message reference id which can be used in your application infrastructure. | [optional] 
  **from** | **String**| One of the allowed Sender ID (phone number or alphanumeric sender ID). If the specified Sender ID is not allowed for some destinations, a fallback default Sender ID will be used to ensure delivery. See [Get timezones](https://docs.textmagic.com/#tag/Sender-IDs). | [optional] 
  **rule** | **String**| An iCal RRULE parameter to create recurrent scheduled messages. When used, sendingTime is mandatory as the start point of sending. See https://www.textmagic.com/free-tools/rrule-generator for format details. | [optional] 
@@ -4740,7 +4740,7 @@ opts = {
   lists: '\"1,2,3,4\"', # String | Comma-separated array of list resources id message will be sent to.
   phones: '\"447860021130,447860021131\"', # String | Comma-separated array of E.164 phone numbers message will be sent to.
   cut_extra: 0, # Integer | Should sending method cut extra characters which not fit supplied partsCount or return 400 Bad request response instead.
-  parts_count: 6, # Integer | Maximum message parts count (TextMagic allows sending 1 to 6 message parts).
+  parts_count: 6, # Integer | Maximum message parts count (Textmagic allows sending 1 to 6 message parts).
   reference_id: 1, # Integer | Custom message reference id which can be used in your application infrastructure.
   from: '\"Test Sender ID\"', # String | One of the allowed Sender ID (phone number or alphanumeric sender ID). If the specified Sender ID is not allowed for some destinations, a fallback default Sender ID will be used to ensure delivery. See [Get timezones](https://docs.textmagic.com/#tag/Sender-IDs).
   rule: '\"FREQ=YEARLY;BYMONTH=1;BYMONTHDAY=1;COUNT=1\"', # String | An iCal RRULE parameter to create recurrent scheduled messages. When used, sendingTime is mandatory as the start point of sending. See https://www.textmagic.com/free-tools/rrule-generator for format details.
@@ -4773,7 +4773,7 @@ Name | Type | Description  | Notes
  **lists** | **String**| Comma-separated array of list resources id message will be sent to. | [optional] 
  **phones** | **String**| Comma-separated array of E.164 phone numbers message will be sent to. | [optional] 
  **cut_extra** | **Integer**| Should sending method cut extra characters which not fit supplied partsCount or return 400 Bad request response instead. | [optional] [default to 0]
- **parts_count** | **Integer**| Maximum message parts count (TextMagic allows sending 1 to 6 message parts). | [optional] [default to 6]
+ **parts_count** | **Integer**| Maximum message parts count (Textmagic allows sending 1 to 6 message parts). | [optional] [default to 6]
  **reference_id** | **Integer**| Custom message reference id which can be used in your application infrastructure. | [optional] 
  **from** | **String**| One of the allowed Sender ID (phone number or alphanumeric sender ID). If the specified Sender ID is not allowed for some destinations, a fallback default Sender ID will be used to ensure delivery. See [Get timezones](https://docs.textmagic.com/#tag/Sender-IDs). | [optional] 
  **rule** | **String**| An iCal RRULE parameter to create recurrent scheduled messages. When used, sendingTime is mandatory as the start point of sending. See https://www.textmagic.com/free-tools/rrule-generator for format details. | [optional] 

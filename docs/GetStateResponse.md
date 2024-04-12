@@ -10,7 +10,9 @@ Name | Type | Description | Notes
 **system_account_closed** | **Integer** |  | 
 **system_account_additional_fields** | **Integer** |  | 
 **system_account_permissions_changed** | **Integer** |  | 
+**user_profile_changed** | **Integer** |  | 
 **user_balance_changed** | **Integer** |  | 
+**user_impersonation_end** | **Integer** |  | 
 **message_deleted** | **Integer** |  | 
 **message_incoming** | **Integer** |  | 
 **message_incoming_deleted** | **Integer** |  | 
@@ -61,5 +63,7 @@ Name | Type | Description | Notes
 **chat_summary_chunk** | **Integer** |  | 
 **chat_ways_to_reply_chunk** | **Integer** |  | 
 **chat_suggested_reply_chunk** | **Integer** |  | 
+**user_subscription_changed** | **Integer** |  | 
+**user_subscription_deleted** | **Integer** |  | 
 
 
